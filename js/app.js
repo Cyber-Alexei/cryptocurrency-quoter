@@ -103,7 +103,7 @@ function mostrarCotizacionHTML(cotizacion) {
   precioAlto.innerHTML = `<p>Precio mas alto del dia: <span>${HIGHDAY}</span></p>`;
 
   const precioBajo = document.createElement("P");
-  precioBajo.innerHTML = `<p>Precio mas alto del dia: <span>${LOWDAY}</span></p>`;
+  precioBajo.innerHTML = `<p>Precio mas bajo del dia: <span>${LOWDAY}</span></p>`;
 
   const ultimasHoras = document.createElement("P");
   ultimasHoras.innerHTML = `<p>Variacion ultimas 24 horas: <span>${CHANGEPCT24HOUR}%</span></p>`;
